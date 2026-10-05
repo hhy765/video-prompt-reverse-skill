@@ -1,0 +1,31 @@
+{
+  "name": "video_prompt_reverse_skill",
+  "version": "0.1.0",
+  "description": "Reverse-engineer video generation prompts and support prompt editing and optimization",
+  "author": "hhy765",
+  "license": "MIT",
+  "entrypoint": "app:app",
+  "runtime": "python",
+  "python_version": "3.12",
+  "api": {
+    "health": "/healthz",
+    "root": "/",
+    "analyze": "/analyze",
+    "reverse_prompt": "/reverse-prompt",
+    "edit_prompt": "/edit-prompt"
+  },
+  "tags": [
+    "video",
+    "prompt",
+    "ai-generation",
+    "reverse-engineering",
+    "prompt-engineering"
+  ],
+  "capabilities": [
+    "Analyze video metadata",
+    "Reverse-engineer video prompts",
+    "Edit and optimize prompts",
+    "Multi-language support",
+    "Style extraction"
+  ]
+}
